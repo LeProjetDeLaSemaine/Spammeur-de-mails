@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-# -*- coding: cp1252 -*-
+# -*- coding: utf-8 -*-
+#En utf-8, car les mauvais logiciels de chez Microsoft ne sont pas capables
+#de décoder leur propre encodage. GG Bill !
 
 from smtplib import SMTP
 import sys
